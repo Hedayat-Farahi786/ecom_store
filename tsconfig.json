@@ -29,7 +29,6 @@
     "noEmit": true,
     "strict": false,
     "skipLibCheck": true,
-    "noImplicitAny": false,
-    "suppressImplicitAnyIndexErrors": true
+    "noImplicitAny": false
   }
 }
