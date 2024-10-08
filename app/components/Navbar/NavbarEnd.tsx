@@ -10,7 +10,7 @@ const NavbarEnd = () => {
   // const authenticated = useSelector(
   //   (state: RootState) => state.user.authenticated
   // );
-  // const dispatch = useDispatch();
+  // const dispatch = useDispatch()
 
   return (
     <>
