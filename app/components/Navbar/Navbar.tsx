@@ -4,14 +4,13 @@ import logoBlack from "../../assets/images/logos/logoIcon_black.png";
 import logoWhite from "../../assets/images/logos/logoIcon_white.png";
 import Image from "next/image";
 import UserOptions from "../UserOptions";
-import NavbarCart from "../Navbar/NavbarCart";
 import packageJson from "../../../package.json";
 import NavbarEnd from "../Navbar/NavbarEnd";
 import Menu from "../Menu";
 import Link from "next/link";
 
 const Navbar = () => {
-  const version = packageJson.version;
+  // const version = packageJson.version;
   const [scrolled, setScrolled] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
 

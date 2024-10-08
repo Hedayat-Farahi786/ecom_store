@@ -1,16 +1,16 @@
 "use client";
 import React from "react";
-import UserOptions from "../UserOptions";
+// import UserOptions from "../UserOptions";
 import NavbarCart from "./NavbarCart";
-import { useDispatch, useSelector } from "react-redux";
-import { RootState } from "../../store/store";
-import { authenticate } from "../../store/userSlice";
+// import { useDispatch, useSelector } from "react-redux";
+// import { RootState } from "../../store/store";
+// import { authenticate } from "../../store/userSlice";
 
 const NavbarEnd = () => {
-  const authenticated = useSelector(
-    (state: RootState) => state.user.authenticated
-  );
-  const dispatch = useDispatch();
+  // const authenticated = useSelector(
+  //   (state: RootState) => state.user.authenticated
+  // );
+  // const dispatch = useDispatch();
 
   return (
     <>

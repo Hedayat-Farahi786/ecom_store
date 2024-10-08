@@ -1,13 +1,13 @@
 "use client";
 import React from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { RootState } from "../store/store";
+import { useDispatch } from "react-redux";
+// import { RootState } from "../store/store";
 import { authenticate } from "../store/userSlice";
 
 const UserOptions = () => {
-  const authenticated = useSelector(
-    (state: RootState) => state.user.authenticated
-  );
+  // const authenticated = useSelector(
+  //   (state: RootState) => state.user.authenticated
+  // );
   const dispatch = useDispatch();
   return (
     <div>
