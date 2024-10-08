@@ -4,7 +4,7 @@ import logoBlack from "../../assets/images/logos/logoIcon_black.png";
 import logoWhite from "../../assets/images/logos/logoIcon_white.png";
 import Image from "next/image";
 import UserOptions from "../UserOptions";
-import packageJson from "../../../package.json";
+// import packageJson from "../../../package.json";
 import NavbarEnd from "../Navbar/NavbarEnd";
 import Menu from "../Menu";
 import Link from "next/link";
